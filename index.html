@@ -7,13 +7,37 @@
     <link rel="manifest" href="/manifest.json"/>
     <link rel="apple-touch-icon" href="images/images.jpg"/>
     <meta name="theme-color" content="white"/>
-    <title>Minha primeira PWA</title>
+    <title>Conversor de moedas</title>
 </head>
 <body class="fullscreen">
   <div class="container">
-    <h1 class="title">Minha primeira PWA</h1>
-  </div>
+    <header>
+    <h1><a style="display:flex; justify-content: center; align-items: center; font-size:29px;">Conversor de Moedas</a></h1>
+   </header>
 
+   <main>
+   <div class='card'>
+   <h1>Este site é focado em realizar a conversão de dolares e guarani para o valor real</h1>
+   <div>
+     <h1>Dolares:</h1>
+     <input type="text" id="dolar">
+    </div>
+
+    <div>
+     <h1>Guarani:</h1>
+     <input type="text" id="guarani">
+    </div>
+    <button onclick="guarani()">Guarani para Real</button>
+    <button onclick="dolar()">Dolar para Real</button>
+    <div id="result"></div>
+</div>
+
+   </main>
+
+   <footer>
+    Guilherme Ferreira Tombini - INFO 6
+   </footer>
+</div>
   <script src="js/main.js"></script>
 </body>
 </html>
