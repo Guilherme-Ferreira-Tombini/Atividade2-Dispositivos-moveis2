@@ -47,6 +47,11 @@ header{
     align-items: center;
 }
 
+input{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
 .menu,h5,a{
   margin:5px;
   font-size:17px;
@@ -84,7 +89,15 @@ main{
 }
 
 button{
-    margin:30px;
-    padding: 20px;
+    margin:10px;
+    padding: 10px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color:white;
+    background-color: blue;
+    border: 1px solid white;
 }
 
