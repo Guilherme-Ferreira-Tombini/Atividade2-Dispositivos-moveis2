@@ -48,7 +48,7 @@ header{
 }
 
 input{
-  font-size: 12px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
@@ -91,6 +91,9 @@ main{
 button{
     margin:10px;
     padding: 10px;
+    background-color: rgb(23, 116, 116);
+    border: 1px solid white;
+    color:white
 }
 
 button:hover{
@@ -101,3 +104,18 @@ button:hover{
     border: 1px solid white;
 }
 
+@media (max-width: 940px){
+
+input{
+  font-size: 20px;
+ }
+
+ button{
+     font-size: 18px;
+ }
+ .menu,h5,a{
+
+    font-size:19px;
+  }
+}
+    
